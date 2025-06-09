@@ -7,7 +7,9 @@
 /// calculate the average speed.
 pub fn speed(start: u32, end: u32, time_elapsed: u32) -> u32 {
     // TODO: define a variable named `distance` with the right value to get tests to pass
+    let distance: u32 = end - start;
     //  Do you need to annotate the type of `distance`? Why or why not?
+    // Resposta: Não, pois como as váriáveis que formam distance já tiveram o seus tipos declarados na função, ocorre a inferência de tipos e não é necessário. No entanto, eu quis declarar.
 
     // Don't change the line below
     distance / time_elapsed
